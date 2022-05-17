@@ -1,10 +1,10 @@
-package day57.Implements.src;
+package day57.Interface.src;
 
-public class CustomTacoBox implements TacoBox {
-    private int tacos;
+public class TripleTacoBox implements TacoBox{
+        private int tacos;
 
-    public CustomTacoBox(int tacos) {
-        this.tacos = tacos;
+    public TripleTacoBox() {
+        this.tacos = 3;
     }
 
     @Override
@@ -15,6 +15,7 @@ public class CustomTacoBox implements TacoBox {
     @Override
     public void eat() {
         System.out.println("Nom, Nom, I eat the tacos.");
-        
     }
+
+    
 }
